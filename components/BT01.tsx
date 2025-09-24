@@ -5,7 +5,7 @@ export default function BT01() {
   return (
     <View style={styles.card}>
       <Image
-        source={require("../../assets/images/902-100x100.jpg")}
+        source={require("../assets/images/avatar.jpg")}
         style={styles.avatar}
       />
 
