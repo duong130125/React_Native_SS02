@@ -9,7 +9,7 @@ export default function BT02() {
       <Text style={styles.number}>{count}</Text>
       <View style={styles.buttonContainer}>
         <Button title="Tăng" onPress={() => setCount(count + 1)} />
-        <Button title="Giảm" onPress={() => setCount(count - 1)} />
+        <Button title="Giảm" onPress={() => setCount(Math.max(0, count - 1))} />
       </View>
     </View>
   );
